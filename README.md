@@ -43,23 +43,34 @@ automacao-codeceptjs-web/
 ├── package.json                # Dependências do projeto
 ├── .gitignore                  # Arquivos/pastas ignoradas pelo Git
 └── README.md                   # Documentação do projeto
-## ▶️ Como Executar os Testes
-
-### 1. Instale as dependências
-```bash
+▶️ Como Executar os Testes
+1. Instale as dependências
+bash
+Copiar
+Editar
 npm install
-
 2. Execute todos os testes
+bash
+Copiar
+Editar
 npx codeceptjs run --steps
-
 3. Execute um teste específico
+bash
+Copiar
+Editar
 npx codeceptjs run tests/login/login_falha_test.js --steps
----
+📌 Observações
+Este projeto não utiliza o padrão Page Object, facilitando o aprendizado e a visualização direta dos comandos.
 
-💡 Basta **copiar e colar esse bloco inteiro** no seu `README.md`. Se quiser, posso adicionar comandos para executar com `headless`, gerar relatório de evidências ou rodar testes de pastas específicas também. Deseja incluir isso?
+Ideal para iniciantes em QA e para demonstrar conhecimento básico em entrevistas técnicas.
 
+Serve como complemento para projetos mais estruturados com Page Object Model (ver meu outro repositório).
 
-
+👤 Autor
+Leonardo Wilenbring Schmitt
+Estudante de Análise e Desenvolvimento de Sistemas | QA em formação
+📧 lschmitt590@gmail.com
+📍 Igrejinha – RS – Brasil
 
 
 
