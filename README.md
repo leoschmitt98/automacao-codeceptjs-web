@@ -43,3 +43,24 @@ automacao-codeceptjs-web/
 ├── package.json                # Dependências do projeto
 ├── .gitignore                  # Arquivos/pastas ignoradas pelo Git
 └── README.md                   # Documentação do projeto
+## ▶️ Como Executar os Testes
+
+### 1. Instale as dependências
+```bash
+npm install
+
+2. Execute todos os testes
+npx codeceptjs run --steps
+
+3. Execute um teste específico
+npx codeceptjs run tests/login/login_falha_test.js --steps
+---
+
+💡 Basta **copiar e colar esse bloco inteiro** no seu `README.md`. Se quiser, posso adicionar comandos para executar com `headless`, gerar relatório de evidências ou rodar testes de pastas específicas também. Deseja incluir isso?
+
+
+
+
+
+
+
